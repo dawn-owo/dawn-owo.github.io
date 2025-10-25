@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Dawna</title>
+    <link>https://dawn-owo.github.io/</link>
+    <description>Recent content on Dawna</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sat, 25 Oct 2025 21:33:44 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dawn-owo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo搭建个人博客（Winsows版）</title>
-      <link>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2winsows%E7%89%88/</link>
+      <link>https://dawn-owo.github.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2winsows%E7%89%88/</link>
       <pubDate>Sat, 25 Oct 2025 21:33:44 +0800</pubDate>
-      <guid>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2winsows%E7%89%88/</guid>
+      <guid>https://dawn-owo.github.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2winsows%E7%89%88/</guid>
       <description></description>
     </item>
   </channel>
