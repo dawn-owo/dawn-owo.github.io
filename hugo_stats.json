@@ -26,6 +26,7 @@
       "path",
       "script",
       "span",
+      "strong",
       "svg",
       "time",
       "title",
@@ -33,9 +34,7 @@
     ],
     "classes": [
       "authorbox",
-      "authorbox__description",
-      "authorbox__header",
-      "authorbox__name",
+      "authorbox__warning",
       "body",
       "clearfix",
       "container",
