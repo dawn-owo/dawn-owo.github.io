@@ -1,4 +1,130 @@
-baseURL = 'https://dawn-owo.github.io/'
-languageCode = 'zh-CN'
-title = 'Dawna'
+# Hugo配置文件 - Mainroad主题版本
+baseURL = "https://dawn-owo.github.io"
+languageCode = "zh-CN"
+title = "Dawna"
 theme = "mainroad"
+# 分页配置
+[pagination]
+pagerSize = 10
+
+
+# 站点参数
+[Params]
+author = "裕裕裕"
+bio = "记录技术学习和生活感悟的个人博客"
+description = "记录技术学习和生活感悟的个人博客" # 站点描述
+opengraph = true
+twitter_cards = false
+readmore = false # 是否显示"阅读全文"按钮
+authorbox = true # 是否显示作者信息框
+pager = true # 是否显示分页导航
+post_meta = ["date", "categories"] # 文章元信息顺序
+mainSections = ["posts"] # 主要内容区域
+
+# Logo配置
+[Params.logo]
+subtitle = "技术博客" # Logo副标题
+
+# 侧边栏配置
+[Params.sidebar]
+home = "right"   # 首页布局
+list = "right"   # 列表页布局  
+single = "right" # 单页布局
+# 按顺序启用小部件
+widgets = ["search", "recent", "categories", "taglist"]
+
+# 小部件配置
+[Params.widgets]
+recent_num = 5 # "最近文章"小部件显示的文章数量
+tags_counter = false # 是否启用标签计数器
+
+# 菜单配置
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "posts"
+name = "文章"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories/"
+weight = 3
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 4
+
+[[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 5
+
+# 永久链接配置
+[permalinks]
+posts = "/posts/:year/:month/:slug/"
+page = "/:slug/"
+categories = "/categories/:slug/"
+tags = "/tags/:slug/"
+
+# 输出格式配置
+[outputs]
+home = ["HTML", "RSS"]
+page = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+# 标记语言配置（Markdown相关）
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
+style = "github"
+[markup.goldmark.tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = false
+
+# 压缩配置 - 提升加载速度
+[minify]
+minifyOutput = true
+[minify.tdewolff.html]
+keepComments = false
+keepWhitespace = false
+keepClasses = false
+[minify.tdewolff.css]
+keepComments = false
+keepWhitespace = false
+[minify.tdewolff.js]
+keepComments = false
+keepVarNames = false
+
+# 图像处理配置
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 85
+anchor = "smart"
+
+# 分类和标签配置
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# 构建配置
+[build]
+writeStats = true
