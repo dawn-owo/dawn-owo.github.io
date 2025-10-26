@@ -1,5 +1,5 @@
 # Hugo配置文件 - Mainroad主题版本
-baseURL = "https://dawn-owo.github.io"
+baseURL = "http://dawna.dpdns.org"
 languageCode = "zh-CN"
 title = "Dawna"
 theme = "mainroad"
